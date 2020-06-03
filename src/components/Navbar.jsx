@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 
-const NavBar = () => {
+const NavBar = (props) => {
   return (
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="#home">
-        {this.props.title} - Striving For Food
+        {props.title} - Striving For Food
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
